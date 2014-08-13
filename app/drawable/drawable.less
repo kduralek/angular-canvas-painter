@@ -1,0 +1,17 @@
+.drawable {
+	animation: zoomIn 0.2s;
+	-webkit-animation: zoomIn 0.2s;
+	cursor: crosshair;
+	&.selection {
+		cursor: default;
+	}
+
+	canvas {
+		display: block;
+		&.temp {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+}

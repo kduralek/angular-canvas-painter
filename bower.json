@@ -1,0 +1,11 @@
+{
+    "name": "CanvasPainterApp",
+    "version": "0.1",
+    "dependencies": {
+        "angular": "~1.2",
+        "angular-sanitize": "~1.2",
+        "less": "~1.7.4"
+    },
+    "devDependencies": {
+    }
+}

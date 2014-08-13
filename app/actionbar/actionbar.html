@@ -1,0 +1,8 @@
+<div class="actionbar">
+    <button class="button" ng-click="exportShapes()">Export</button>
+    <div class="button">
+        <p>Import</p>
+        <input type="file" ng-model="upload.src" file-change="export:init" />
+    </div>
+    <button class="button reset" ng-click="clearCanvas()">Clear canvas</button>
+</div>

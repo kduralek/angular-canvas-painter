@@ -1,0 +1,33 @@
+{
+	// List of config options
+	// http://jshint.com/docs/options/
+ 
+	// Enforcing options
+	"bitwise": true,
+	"camelcase": true,
+	"curly": true,
+	"eqeqeq": true,
+	"immed": true,
+	"indent": 3,
+	"latedef": true,
+	"newcap": true,
+	"noarg": true,
+	"noempty": true,
+	"quotmark": "single",
+	"strict": true,
+	"trailing": true,
+	"undef": true,
+	"unused": true,
+ 
+	// Relaxing options
+	"esnext": true,
+	"smarttabs": true,
+	"globals": {
+		"angular": false,
+		"debugging": false
+	},
+ 
+	// Environments
+	"browser": true,
+	"node": true
+}

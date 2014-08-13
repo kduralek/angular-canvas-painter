@@ -1,0 +1,12 @@
+{
+	"adjoining-classes": false,
+    "box-model": false,
+    "box-sizing": false,
+    "ids": false,
+    "fallback-colors": false,
+    "qualified-headings": false,
+    "regex-selectors": false,
+    "vendor-prefix": false,
+    "compatible-vendor-prefixes": false,
+    "outline-none": false
+}

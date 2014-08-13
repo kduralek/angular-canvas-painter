@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+	<title>Canvas Painter</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="author" content="Krzysztof Duralek">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<link rel="stylesheet/less" type="text/css" href="assets/styles/reset.less">
+    <link rel="stylesheet/less" type="text/css" href="assets/styles/animation.less">
+	<link rel="stylesheet/less" type="text/css" href="assets/styles/styles.less">
+    <link rel="stylesheet/less" type="text/css" href="app/toolbar/toolbar.less">
+    <link rel="stylesheet/less" type="text/css" href="app/actionbar/actionbar.less">
+    <link rel="stylesheet/less" type="text/css" href="app/drawable/drawable.less">
+</head>
+<body ng-app="canvasPainterApp">
+
+	<div id="w">
+        <toolbar></toolbar>
+        <actionbar></actionbar>
+		<drawable tool="tool" ng-class="tool"></drawable>
+	</div>
+
+    <script>
+        less = {
+            env: 'development'
+        };
+    </script>
+    <script src="lib/less/dist/less-1.7.4.js"></script>
+    <style type="text/css">
+        .less-error-message {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+        }
+    </style>
+
+	<script src="lib/file-saver.js"></script>
+	<script src="lib/angular/angular.js"></script>
+    <script src="lib/angular/angular.js"></script>
+	<script src="app/app.js"></script>
+    <script src="app/toolbar/toolbar.js"></script>
+    <script src="app/actionbar/actionbar.js"></script>
+    <script src="app/drawable/drawable.js"></script>
+	<script src="app/actionbar/file-change.js"></script>
+    <script src="app/drawable/shape.js"></script>
+    <script src="app/drawable/shape-stack.js"></script>
+</body>
+</html>

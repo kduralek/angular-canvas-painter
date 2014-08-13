@@ -1,0 +1,57 @@
+.toolbar {
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 60px 0 0 0;
+	width: 60px;
+	height: 100%;
+	background-color: #CCCFD4;
+	opacity: 0;
+	-webkit-animation: fadeInLeft 0.2s 0.3s forwards;
+	animation: fadeInLeft 0.2s 0.3s forwards;
+
+	.icons-set {
+		display: none;
+	}
+
+	button {
+		display: block;
+		margin: 0 0 2px 0;
+		padding: 0;
+		width: 60px;
+		height: 60px;
+		outline: none;
+		border: 0;
+		background-color: #BAAD9D;
+		cursor: pointer;
+		-webkit-transition: background-color 0.2s;
+		transition: background-color 0.2s;
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+
+		svg {
+			-webkit-transition: fill 0.2s;
+			transition: fill 0.2s;
+			fill: #916349;
+			stroke: #916349;
+		}
+
+		&:hover {
+			background-color: #815841;
+			svg {
+				fill: #A69A8C;
+				stroke: #A69A8C;
+			}
+		}
+
+		&.selected {
+			background-color: #543808;
+			cursor: default;
+			svg {
+				fill: #916349;
+				stroke: #916349;
+			}
+		}
+	}
+}
